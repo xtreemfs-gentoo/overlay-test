@@ -1,4 +1,4 @@
-FROM gentoo/stage3-amd64-hardened
+FROM gentoo/stage3-amd64-hardened:latest
 
 LABEL Description="This image tests the Xtreemfs overlay" Vendor="Patrick Hieber" Version="0.1"
 
