@@ -6,5 +6,5 @@ RUN emerge --sync &&
   emerge -n layman &&
   layman -f &&
   layman -a xtreemfs &&
-  echo "=net-fs/xtreemfs-1.5 ~amd64" >> /etc/portage/package.keywords &&
+  echo "source /var/lib/layman/make.conf" >> /etc/portage/make.conf &&
   emerge -v =net-fs/xtreemfs-1.5
